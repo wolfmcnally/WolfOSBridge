@@ -1,0 +1,16 @@
+PODS:
+  - WolfOSBridge (0.1.0)
+
+DEPENDENCIES:
+  - WolfOSBridge (from `../`)
+
+EXTERNAL SOURCES:
+  WolfOSBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WolfOSBridge: 34cf36cb79de6579e2803dd7aa5e481049d5f4c1
+
+PODFILE CHECKSUM: b64113c4a8dd2e7d8da7170ba16e0c1d52c5f800
+
+COCOAPODS: 1.6.0.beta.1
