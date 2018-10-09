@@ -1,5 +1,5 @@
 PODS:
-  - WolfOSBridge (0.1.0)
+  - WolfOSBridge (1.0.1)
 
 DEPENDENCIES:
   - WolfOSBridge (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WolfOSBridge: 34cf36cb79de6579e2803dd7aa5e481049d5f4c1
+  WolfOSBridge: 1bcb853b300af53a27167785bd41d53b987455a1
 
-PODFILE CHECKSUM: b64113c4a8dd2e7d8da7170ba16e0c1d52c5f800
+PODFILE CHECKSUM: 6aeaed92588630a9cacdec8aeb08ef45efa03496
 
 COCOAPODS: 1.6.0.beta.1
