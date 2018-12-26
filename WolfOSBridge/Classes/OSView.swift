@@ -30,6 +30,7 @@ public typealias OSImageView = NSImageView
 public typealias OSEdgeInsets = NSEdgeInsets
 public let OSEdgeInsetsZero = NSEdgeInsetsZero
 public let OSViewNoIntrinsicMetric = NSView.noIntrinsicMetric
+public typealias OSColor = NSColor
 
 public typealias ViewBlock = (NSView) -> Bool
 
@@ -41,6 +42,7 @@ public typealias OSImageView = UIImageView
 public typealias OSEdgeInsets = UIEdgeInsets
 public let OSEdgeInsetsZero = UIEdgeInsets.zero
 public let OSViewNoIntrinsicMetric = UIView.noIntrinsicMetric
+public typealias OSColor = UIColor
 
 public typealias ViewBlock = (UIView) -> Bool
 

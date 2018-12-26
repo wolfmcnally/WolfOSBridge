@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfOSBridge'
-    s.version          = '1.0.1'
+    s.version          = '1.1'
     s.summary          = 'Conveniences for writing code that runs under both iOS and macOS.'
 
     s.description      = <<-DESC
