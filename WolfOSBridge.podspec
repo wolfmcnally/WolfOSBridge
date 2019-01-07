@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfOSBridge'
-    s.version          = '1.1.0'
+    s.version          = '1.1.1'
     s.summary          = 'Conveniences for writing code that runs under both iOS and macOS.'
 
     s.description      = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
     s.swift_version = '4.2'
 
-    s.source_files = 'WolfOSBridge/Classes/**/*'
+    s.source_files = 'Sources/WolfOSBridge/**/*'
 
     s.ios.deployment_target = '9.3'
     s.macos.deployment_target = '10.13'

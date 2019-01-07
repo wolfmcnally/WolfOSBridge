@@ -29,6 +29,7 @@ public typealias OSView = NSView
 public typealias OSImageView = NSImageView
 public typealias OSEdgeInsets = NSEdgeInsets
 public let OSEdgeInsetsZero = NSEdgeInsetsZero
+@available(macOS 10.11, *)
 public let OSViewNoIntrinsicMetric = NSView.noIntrinsicMetric
 public typealias OSColor = NSColor
 
