@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfOSBridge'
-    s.version          = '1.1.1'
+    s.version          = '2.0.0'
     s.summary          = 'Conveniences for writing code that runs under both iOS and macOS.'
 
     s.description      = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Wolf McNally' => 'wolf@wolfmcnally.com' }
     s.source           = { :git => 'https://github.com/wolfmcnally/WolfOSBridge.git', :tag => s.version.to_s }
 
-    s.swift_version = '4.2'
+    s.swift_version = '5.0'
 
     s.source_files = 'Sources/WolfOSBridge/**/*'
 
