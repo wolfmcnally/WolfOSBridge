@@ -22,7 +22,19 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#if canImport(AppKit)
+#if canImport(UIKit)
+
+import UIKit
+public typealias OSView = UIView
+public typealias OSImageView = UIImageView
+public typealias OSEdgeInsets = UIEdgeInsets
+public let OSEdgeInsetsZero = UIEdgeInsets.zero
+public let OSViewNoIntrinsicMetric = UIView.noIntrinsicMetric
+public typealias OSColor = UIColor
+
+public typealias ViewBlock = (UIView) -> Bool
+
+#elseif canImport(AppKit)
 
 import AppKit
 public typealias OSView = NSView
@@ -34,17 +46,5 @@ public let OSViewNoIntrinsicMetric = NSView.noIntrinsicMetric
 public typealias OSColor = NSColor
 
 public typealias ViewBlock = (NSView) -> Bool
-
-#elseif canImport(UIKit)
-
-import UIKit
-public typealias OSView = UIView
-public typealias OSImageView = UIImageView
-public typealias OSEdgeInsets = UIEdgeInsets
-public let OSEdgeInsetsZero = UIEdgeInsets.zero
-public let OSViewNoIntrinsicMetric = UIView.noIntrinsicMetric
-public typealias OSColor = UIColor
-
-public typealias ViewBlock = (UIView) -> Bool
 
 #endif
